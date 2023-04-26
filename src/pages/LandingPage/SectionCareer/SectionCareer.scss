@@ -1,0 +1,37 @@
+@import '../../../styles/variables.scss';
+
+#section-career {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 22px;
+
+  .heading {
+    color: #000;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    height: 375px;
+    border-radius: 25px;
+    background: linear-gradient(
+      170deg,
+      rgba(36, 140, 85, 1) 0%,
+      rgba(20, 40, 48, 1) 100%
+    );
+    margin-bottom: 15px;
+    span {
+        text-align: center;
+    }
+  }
+
+}
+
+@media (min-width: 1250px) {
+  #section-career {
+  }
+}

@@ -5,8 +5,8 @@
   flex-direction: column;
 
   .page {
-    display: flex;
-    flex-grow: 1;
+    margin: auto;
+    overflow: hidden;
 
     .page-content {
       display: flex;
