@@ -79,5 +79,11 @@
 
 @media (min-width: 1250px) {
   #section-about {
+
+    .about-me {
+      .desc {
+        padding: 0 100px 100px 100px !important;
+      }
+    }
   }
 }

@@ -59,3 +59,27 @@
     }
   }
 }
+
+@media (min-width: 1250px) {
+  #section-header {
+    .section-header-content {
+      .logo {
+        font-size: 16px;
+        .circle {
+          width: 40px;
+          height: 40px;
+          margin-right: 13px;
+        }
+      }
+
+      .menu {
+        width: 300px;
+        .ant-menu {
+          .ant-menu-item {
+            font-size: 16px;
+          } 
+        }
+      }
+    }
+  }
+}

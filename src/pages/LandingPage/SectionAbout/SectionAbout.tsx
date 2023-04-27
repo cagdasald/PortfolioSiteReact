@@ -48,14 +48,14 @@ function SectionAbout(props: IProps) {
         <h1>
           About Me.
         </h1>
-        <span>
+        <p className='desc'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
           autem laborum, quam perferendis qui doloremque tenetur architecto illo
           minus debitis cum, perspiciatis sint. Placeat omnis aspernatur quia
           nobis quod beatae error esse temporibus excepturi. Quae accusantium
           omnis distinctio, itaque consequuntur vitae a fugit? Magnam minus,
           laudantium dolores cumque officia exercitationem?
-        </span>
+        </p>
       </div>
     </div>
   );

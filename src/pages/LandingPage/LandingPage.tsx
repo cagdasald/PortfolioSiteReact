@@ -13,7 +13,11 @@ function LandingPage() {
   return (
     <div id="home-page" className="page">
       <div className="page-content">
-        <SectionHeader/>
+        <SectionHeader 
+          refAbout={sectionRefAbout}
+          refCareers={sectionRefCareer}
+          refContact={sectionRefContact}
+        />
         <SectionAbout sectionRef={sectionRefAbout}/>
         <SectionCareer sectionRef={sectionRefCareer}/>
         <SectionFooter sectionRef={sectionRefContact}/>

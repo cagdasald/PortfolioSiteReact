@@ -5,15 +5,13 @@ import { Menu } from 'antd';
 enum MenuItem {
   about = 'About',
   careers = 'Careers',
-  products = 'Products',
-  partners = 'Partners',
+  contact = 'Contact',
 }
 
 interface IProps {
   refAbout?: any;
   refCareers?: any;
-  refProducts?: any;
-  refPartners?: any;
+  refContact?: any;
 }
 
 function SectionHeader(props: IProps) {
@@ -21,8 +19,7 @@ function SectionHeader(props: IProps) {
     return (
       !!props.refAbout &&
       !!props.refCareers &&
-      !!props.refProducts &&
-      !!props.refPartners
+      !!props.refContact 
     );
   };
 
@@ -40,14 +37,8 @@ function SectionHeader(props: IProps) {
           block: 'start',
         });
         break;
-      case MenuItem.partners:
-        props.refPartners.current?.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start',
-        });
-        break;
-      case MenuItem.products:
-        props.refProducts.current?.scrollIntoView({
+      case MenuItem.contact:
+        props.refContact.current?.scrollIntoView({
           behavior: 'smooth',
           block: 'start',
         });
@@ -70,8 +61,8 @@ function SectionHeader(props: IProps) {
           My Career
         </Menu.Item>
         <Menu.Item
-          key={MenuItem.careers}
-          onClick={() => handleClickMenuItem(MenuItem.careers)}
+          key={MenuItem.contact}
+          onClick={() => handleClickMenuItem(MenuItem.contact)}
         >
           Contact
         </Menu.Item>
@@ -83,7 +74,7 @@ function SectionHeader(props: IProps) {
     return (
       <div className='menu'>
       <Menu mode="horizontal" selectedKeys={[]}>
-        {renderMenuItems()}
+        {isRefs() && renderMenuItems()}
       </Menu>
       </div>
     );
