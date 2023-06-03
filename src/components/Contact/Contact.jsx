@@ -66,7 +66,7 @@ const Contact = () => {
               </span>
 
               <a
-                href="https://www.linkedin.com/in/cagdas-aldogan/"
+                href="https://www.linkedin.com/"
                 className="contact-button"
               >
                 Write me
