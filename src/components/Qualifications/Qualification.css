@@ -10,12 +10,9 @@
 
 .qualification-button {
     font-size: var(--h3-font-size);
-    font-weight: var(--title-color);
+    font-weight: 600;
     margin: 0 var(--mb-1);
     cursor: pointer;
-}
-
-.qualification-button:hover {
     color: var(--title-color-dark);
 }
 
@@ -25,7 +22,8 @@
 }
 
 .qualification-active {
-    color: var(--title-color-dark);
+    color: var(--title-color);
+    font-weight: normal;
 }
 
 .qualification-sections {

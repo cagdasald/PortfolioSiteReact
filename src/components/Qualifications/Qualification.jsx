@@ -103,6 +103,40 @@ const Qualification = () => {
           >
             <div className="qualification-data">
               <div>
+                <h3 className="qualification-title">Harvard Certificate</h3>
+                <span className="qualification-subtitle">
+                  CS50's Introduction to Computer Science
+                </span>
+                <div className="qualification-calender">
+                  <i className="uil uil-calendar-alt"></i> 04/2023-Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification-rounder"></span>
+                <span className="qualification-line"></span>
+              </div>
+            </div>
+
+            <div className="qualification-data">
+              <div></div>
+              <div>
+                <span className="qualification-rounder"></span>
+                <span className="qualification-line"></span>
+              </div>
+              <div>
+                <h3 className="qualification-title">Harvard Certificate</h3>
+                <span className="qualification-subtitle">
+                  CS50's Web Programming with Python and JavaScript
+                </span>
+                <div className="qualification-calender">
+                  <i className="uil uil-calendar-alt"></i> 05/2023-Present
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification-data">
+              <div>
                 <h3 className="qualification-title">
                   Alaaddin Keykubat University
                 </h3>

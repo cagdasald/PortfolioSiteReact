@@ -39,31 +39,43 @@ const Services = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">lorem</h3>
+              <h3 className="services-modal-title">Frontend</h3>
               <p className="services-modal-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
-                expedita?
+                Here's how I can contribute in the Frontend Development
               </p>
 
               <ul className="servies-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Proficient in building interactive and responsive web
+                    applications using React.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Experienced in managing application state using Redux for
+                    efficient data flow.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Skilled in using TypeScript for type-safe development and
+                    enhanced code quality.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Over the past 2 years, I have developed numerous projects
+                    using React, showcasing my ability to create engaging user
+                    interfaces.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -96,31 +108,34 @@ const Services = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">lorem</h3>
+              <h3 className="services-modal-title">Backend</h3>
               <p className="services-modal-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
-                expedita?
+                Here's how I can contribute in the Backend Development
               </p>
 
               <ul className="servies-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Proficient in developing backend functionality for websites
+                    using PHP
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Experienced in working with MSSQL databases to store and
+                    retrieve data efficiently.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Skilled in designing and implementing RESTful APIs for
+                    seamless integration with frontend applications.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -153,31 +168,26 @@ const Services = () => {
                 className="uil uil-times services-modal-close"
               ></i>
 
-              <h3 className="services-modal-title">lore23123m</h3>
+              <h3 className="services-modal-title">Mobile</h3>
               <p className="services-modal-description">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi,
-                expedita?
+                Here's how I can contribute in the Mobile Development
               </p>
 
               <ul className="servies-modal-services grid">
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Currently in the process of learning and developing mobile
+                    applications using the React Native framework.
+                  </p>
                 </li>
 
                 <li className="services-modal-service">
                   <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
-                </li>
-
-                <li className="services-modal-service">
-                  <i className="uil uil-check-circle services-modal-icon"></i>
-                  <p className="services-modal-info">Lorem ipsum dolor sit.</p>
+                  <p className="services-modal-info">
+                    Have had some experience in creating apps that run smoothly
+                    on both iOS and Android devices.
+                  </p>
                 </li>
               </ul>
             </div>

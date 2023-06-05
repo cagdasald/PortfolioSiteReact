@@ -4,7 +4,7 @@ const Social = () => {
   return (
     <div className="home-social">
       <a
-        href="https://tr.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F"
+        href="https://tr.linkedin.com/"
         className="home-social-icon"
         target="_blank"
         rel="noreferrer"
@@ -22,7 +22,7 @@ const Social = () => {
       </a>
 
       <a
-        href="https://mail.google.com/"
+        href="mailto:cagdas.aldogan00@gmail.com"
         className="home-social-icon"
         target="_blank"
         rel="noreferrer"

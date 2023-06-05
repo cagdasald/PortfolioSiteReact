@@ -17,8 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
-            ullam?
+          Passionate Frontend Developer creating exceptional web experiences.
           </p>
 
           <a download="" href={CV} className="button button-flex">
